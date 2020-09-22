@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+/* font-family: 'Raleway', sans-serif; */
+
+
+/* bleu clair --> #3498DB */
+
+
+/* bleu foncé --> #2C3E50 */
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+
+/* header */
+
+.header {
+    background-color: #3498DB;
+    height: 70px;
+    line-height: 70px;
+}
+
+.logo {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+}
+
+.separator {
+    height: 3px;
+    width: 5%;
+    border: none;
+    box-shadow: none;
+    background-color: #3498DB;
+}
+
+.menu {
+    float: right;
+}
+
+.menu a {
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.menu a:hover {
+    color: #2C3E50;
+}
+
+
+/* bannière */
+
+.banner {
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.d-block {
+    width: 100%;
+    height: : 100%;
+}
+
+.inner-banner {
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner h1 {
+    color: #ffffff;
+    text-shadow: 1px 1px 5px #000000;
+}
+
+.inner-banner .btn-custom {
+    background-color: #3498DB;
+    color: #ffffff;
+}
+
+.inner-banner .btn-custom:hover {
+    background-color: #2C3E50;
+}
+
+
+/* about */
+
+#about {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.about {
+    background: rgb(34,185,195);
+background: linear-gradient(0deg, rgba(34,185,195,1) 15%, rgba(71,7,173,0.09911444248297274) 100%);
+}
+
+.about article {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.about article h2 {
+    text-align: center;
+}
+
+
+/* portfolio */
+
+.portfolio {
+    background-color: #eeeeee;
+}
+
+#portfolio {
+    text-align: center;
+}
+
+.portfolio .item-folio {
+    height: 20px;
+    background-color: #3498DB;
+}
+
+
+
+/* contact */
+
+.footer {
+    display: block; margin-left: auto; margin-right: auto;
+    background-color: #2C3E50;
+}
+
+.container {
+    text-align: center;
+}
+
+#contact {
+    color: #ffffff;
+    text-align: center;
+}
+
+.formulaireContact {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}   
+
+input[type=text] {
+    height: 25px;
+    width: 500px;
+    border: none;
+}
+
+input[type=email] {
+    height: 25px;
+    width: 500px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 500px;
+    height: 150px;
+    resize: vertical;
+}
+
